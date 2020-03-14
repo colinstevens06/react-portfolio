@@ -1,12 +1,25 @@
-// import React from "react"
+import React from "react"
 // import { Link } from "react-router-dom"
 
-// function About() {
+// IMPORT COMPONENTS
+import AboutHero from "../components/About-Hero"
+import AboutBelowFold from "../components/About-Below-Fold"
+import Navigation from "../components/Navigation"
+
+function About() {
 
 
-//   return (
-//     console.log("testing")
-//   )
-// }
+  return (
+    <div className="fade-in" style={{ display: 0 }}>
+      <div className="forest-gradient pb-3">
+        <Navigation />
 
-// export default About;
+        <AboutHero />
+        <AboutBelowFold />
+      </div>
+    </div>
+
+  )
+}
+
+export default About;

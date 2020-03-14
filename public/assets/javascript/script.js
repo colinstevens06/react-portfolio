@@ -5,7 +5,7 @@ $(document).ready(function () {
   const hamburger = $(".hamburger");
   const navgroup = $(".navbar-fade");
   const laterFade = $(".later-fade");
-  const htmlElement = $("html");
+  // const htmlElement = $("html");
   const elementFadeIn = $(".fade-in");
   const aboutSectionDiv = $("#about-section");
   const windowWidth = window.innerWidth;
@@ -42,15 +42,15 @@ $(document).ready(function () {
     .fromTo(navgroup, 0.5, { opacity: 0 }, { opacity: 1 }, "-=1")
     .fromTo(laterFade, 0.5, { opacity: 0 }, { opacity: 1 });
 
-  function pageChange(event) {
-    event.preventDefault();
-    let goToURL = $(this).attr("data-url");
+  // function pageChange(event) {
+  //   event.preventDefault();
+  //   let goToURL = $(this).attr("data-url");
 
-    htmlElement.fadeOut(500);
-    setTimeout(() => {
-      document.location.href = goToURL;
-    }, 500);
-  }
+  //   htmlElement.fadeOut(500);
+  //   setTimeout(() => {
+  //     document.location.href = goToURL;
+  //   }, 500);
+  // }
 
   function largeImage(event) {
     event.preventDefault();
@@ -96,7 +96,7 @@ $(document).ready(function () {
             "assets/images/colin-stevens-baltimore-web-developer-mobile.jpg"
           );
           break;
-        case "about":
+        default:
           $(".hero-image").attr(
             "src",
             "assets/images/about/about-colin-stevens-baltimore-web-developer-mobile.jpg"
@@ -105,7 +105,7 @@ $(document).ready(function () {
     }
   }
 
-  $(".nav-fade").on("click", pageChange);
+  // $(".nav-fade").on("click", pageChange);
   $(".img-about").on("click", largeImage);
   $(".fa-times-circle").on("click", closeLargeImage);
 

@@ -1,0 +1,138 @@
+[
+  {
+    "id": 9,
+    "name": "ReactJS Calculator",
+    "text": "This was my first React.JS project. I built the calculator dynamically and adjusted to new React syntax.",
+    "features": [
+      "State updates",
+      "Design mimicing a Mac calculator",
+      "Custom calculator logic"
+    ],
+    "siteURL": "https://guarded-sea-42388.herokuapp.com/",
+    "github": "https://github.com/colinstevens06/calculator",
+    "img": "./assets/images/projects/calculator-app.jpg",
+    "order": "col-md-6",
+    "fade": "fade-left"
+  },
+  {
+    "id": 8,
+    "name": "Lies From Granny",
+    "text": "This website is a marketing tool for Lies From Granny, my band. It's target audiences are fans and potential venues.",
+    "features": [
+      "SaSS styling",
+      "Modern design",
+      "Custom art"
+    ],
+    "siteURL": "https://liesfromgranny.com/",
+    "github": "https://github.com/colinstevens06/Lies-From-Granny",
+    "img": "./assets/images/projects/lies-from-granny-band-website.jpg",
+    "order": "col-md-6 order-2",
+    "fade": "fade-right"
+  },
+  {
+    "id": 7,
+    "name": "Burger Bonanza",
+    "text": "This is a full-stack application which stores user input data. I wrote all the front-end and back-end code to specifications outlined in our project requirements.",
+    "features": [
+      "MVC development with ORM and MySQL",
+      "Express and Handlebars",
+      "SASS"
+    ],
+    "siteURL": "https://whispering-mountain-70655.herokuapp.com/",
+    "github": "https://github.com/colinstevens06/13-Burger-Logger",
+    "img": "./assets/images/projects/burger-bonanza.jpg",
+    "order": "col-md-6",
+    "fade": "fade-left"
+  },
+  {
+    "id": 6,
+    "name": "Employee Tracker Database",
+    "text": "This CLI application allows users to save employee information, including roles, salaries and departments, to a database.",
+    "features": [
+      "MySQL",
+      "Inquirer",
+      "Node.JS"
+    ],
+    "siteURL": "https://rocky-retreat-21284.herokuapp.com/",
+    "github": "https://github.com/colinstevens06/11-Note-Taker",
+    "img": "./assets/images/projects/employee-tracker.jpg",
+    "order": "col-md-6 order-2",
+    "fade": "fade-right"
+  },
+  {
+    "id": 5,
+    "name": "Note Taker",
+    "text": "This note taker allows the user to write and save notes, delete notes, and ultimately keep tasks organized.",
+    "features": [
+      "REST development",
+      "Heroku deployment",
+      "Express"
+    ],
+    "siteURL": "https://rocky-retreat-21284.herokuapp.com/",
+    "github": "https://github.com/colinstevens06/11-Note-Taker",
+    "img": "./assets/images/projects/note-taker.jpg",
+    "order": "col-md-6",
+    "fade": "fade-left"
+  },
+  {
+    "id": 4,
+    "name": "Employee Summary Templater",
+    "text": "We used Object Oriented Programming to create a reusable design depending on the number of employees desired in the summary.",
+    "features": [
+      "NodeJS",
+      "ES6",
+      "JavaScript"
+    ],
+    "github": "https://github.com/colinstevens06/10-Employee-Summary-Template-Engine",
+    "img": "./assets/images/projects/employee-summary.png",
+    "order": "col-md-6 order-2",
+    "fade": "fade-right"
+  },
+  {
+    "id": 3,
+    "name": "GitHub Profile Generator",
+    "text": "Using Inquirer in the CLI, the user answers two questions to get a custom GitHub profile PDF. This was our introduction to NPM packages.",
+    "features": [
+      "Inquirer",
+      "NPM Packages",
+      "NodeJS"
+    ],
+    "github": "https://github.com/colinstevens06/09-Developer-Profile-Generator",
+    "img": "./assets/images/projects/github-profile-generator.jpg",
+    "order": "col-md-6",
+    "fade": "fade-left"
+  },
+  {
+    "id": 2,
+    "name": "Group Project - Trivia Game",
+    "text": "Working with two classmates, we built a randomized trivia game. I focused on using JavaScript and AJAX calls to create the gameplay.",
+    "features": [
+      "Gameplay from start to finish",
+      "AJAX calls to generate the questions",
+      "Timer during gameplay",
+      "Sounds during gameplay",
+      "Fades during gampeplya",
+      "CSS tweaks"
+    ],
+    "siteURL": "https://colinstevens06.github.io/06-Weather-Dashboard/",
+    "github": "https://github.com/colinstevens06/06-Weather-Dashboard",
+    "img": "./assets/images/projects/group-project.jpg",
+    "order": "col-md-6 order-2",
+    "fade": "fade-right"
+  },
+  {
+    "id": 1,
+    "name": "Weather Dashboard",
+    "text": "This was our first project using AJAX calls to access information via an API. Also got more practice with CSS and JQuery",
+    "features": [
+      "JQuery",
+      "AJAX",
+      "Bootstrap"
+    ],
+    "siteURL": "https://colinstevens06.github.io/06-Weather-Dashboard/",
+    "github": "https://github.com/colinstevens06/06-Weather-Dashboard",
+    "img": "./assets/images/projects/weather-dashboard.jpg",
+    "order": "col-md-6",
+    "fade": "fade-left"
+  }
+]
