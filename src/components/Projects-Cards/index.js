@@ -7,7 +7,9 @@ export default function ProjectsCard(props) {
     <div className="card" data-aos={props.fade}>
       <div className="row no-gutters">
         <div className={props.order}>
-          <img src={props.img} alt="Screenshot of the Note Taker" className="img-fluid" />
+          <img src={props.img} alt="Screenshot of the Note Taker"
+            className={(props.order === "col-md-6") ? ("img-fluid img-left") : ("img-fluid img-right")}
+          />
         </div>
         <div className="col-md-6">
           <div className="card-body">

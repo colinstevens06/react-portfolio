@@ -320,6 +320,14 @@ section {
   z-index: -1;
 }
 
+.img-left {
+  border-radius: 10px 0 0 10px;
+}
+
+.img-right {
+  border-radius: 0 10px 10px 0;
+}
+
 .card {
   border: 0;
 }

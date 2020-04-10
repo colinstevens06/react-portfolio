@@ -38,15 +38,15 @@ export default function HomeAbout() {
             <p>
               In my free time, I play drums in a cover band. Part of my band
               duties is promoting upcoming shows and managing our brand. You
-            can see examples of my work on our <a href="https://www.instagram.com/liesfromgranny" class="body-link"
-                target="_blank" rel="noopener noreferrer">Instagram account</a> and on&nbsp;
+            can see examples of my work on <a href="https://www.instagram.com/liesfromgranny" className="body-link"
+                target="_blank" rel="noopener noreferrer">the band's Instagram account</a> and on&nbsp;
             <a href="http://liesfromgranny.com" className="body-link" target="_blank" rel="noopener noreferrer">our website</a>, which I designed.
           </p>
             <p>
               I also enjoy photography. I took the photos on this page -
               photos of me were using a timer - and my photos can be
-            viewed on my <a href="https://www.instagram.com/drumminup/" target="_blank" rel="noopener noreferrer" className="body-link">Instagram
-              account</a>.
+            viewed on <a href="https://www.instagram.com/drumminup/" target="_blank" rel="noopener noreferrer" className="body-link">my Instagram
+              account</a>. Read <a href="/about" className="body-link">more about me</a>.
           </p>
           </div>
         </div>
