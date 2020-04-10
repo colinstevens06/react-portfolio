@@ -16,13 +16,13 @@ export default function Navigation() {
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <div className="navbar-nav ml-auto">
-            <a className="nav-btn nav-fade"
+            <a className="nav-btn"
               // data-url="index.html" 
               href="/">Home</a>
-            <a className="nav-btn nav-fade"
+            <a className="nav-btn"
               // data-url="projects.html" 
               href="/projects">Projects</a>
-            <a className="nav-btn nav-fade"
+            <a className="nav-btn"
               // data-url="about.html"
               href="/about">About</a>
             <a className="nav-btn" href="./assets/PDFs/colin-stevens-resume.pdf" target="_blank">Resume</a>
