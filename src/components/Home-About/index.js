@@ -2,7 +2,7 @@ import React from "react"
 
 export default function HomeAbout() {
   return (
-    <div className="orange-gradient later-fade" style={{ opacity: 0 }}>
+    <div className="orange-gradient">
       <div className="container">
         <div className="row">
           <div className="body-copy my-5" id="body-copy" data-aos="fade-up">

@@ -5,7 +5,7 @@ export default function Navigation() {
     <nav className="navbar navbar-expand-lg">
       <div className="container">
         <div className="navbar-brand d-flex flex-row align-items-center">
-          <h1 className="logo navbar-fade">Colin Stevens</h1>
+          <h1 className="logo">Colin Stevens</h1>
         </div>
 
         <button className="navbar-toggler custom-toggler" type="button" data-toggle="collapse"
@@ -15,7 +15,7 @@ export default function Navigation() {
         </button>
 
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <div className="navbar-nav ml-auto navbar-fade">
+          <div className="navbar-nav ml-auto">
             <a className="nav-btn nav-fade"
               // data-url="index.html" 
               href="/">Home</a>
