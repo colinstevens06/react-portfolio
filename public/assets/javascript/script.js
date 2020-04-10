@@ -32,25 +32,16 @@ $(document).ready(function () {
       "-=2"
     )
     .fromTo(logo, 0.5, { opacity: 0, x: 30 }, { opacity: 1, x: 0 }, "-=1")
-    .fromTo(
-      hamburger,
-      0.5,
-      { opacity: 0, x: 30 },
-      { opacity: 1, x: 0 },
-      "-=1"
-    )
+    // .fromTo(
+    //   hamburger,
+    //   0.5,
+    //   { opacity: 0, x: 30 },
+    //   { opacity: 1, x: 0 },
+    //   "-=1"
+    // )
     .fromTo(navgroup, 0.5, { opacity: 0 }, { opacity: 1 }, "-=1")
-    .fromTo(laterFade, 0.5, { opacity: 0 }, { opacity: 1 });
+  // .fromTo(laterFade, 0.5, { opacity: 0 }, { opacity: 1 });
 
-  // function pageChange(event) {
-  //   event.preventDefault();
-  //   let goToURL = $(this).attr("data-url");
-
-  //   htmlElement.fadeOut(500);
-  //   setTimeout(() => {
-  //     document.location.href = goToURL;
-  //   }, 500);
-  // }
 
   function largeImage(event) {
     event.preventDefault();

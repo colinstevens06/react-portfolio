@@ -1,6 +1,54 @@
 [
   {
-    "id": 9,
+    "id": 13,
+    "name": "BMore Wings App",
+    "text": "I took the lead for our team in my Bootcamp's final project. Using my idea, I wrote front- and back-end code for the landing page and individual restaurant pages. I placed a focus on mobile design, scalability and MERN",
+    "features": [
+      "MERN Website",
+      "React Hooks",
+      "React Routing"
+    ],
+    "siteURL": "https://morning-basin-33171.herokuapp.com",
+    "github": "https://github.com/colinstevens06/baltimore-hot-wings",
+    "img": "./assets/images/projects/bmore-wings.jpg",
+    "order": "col-md-6",
+    "fade": "fade-left"
+  },
+  {
+    "id": 12,
+    "name": "ReactJS Book Search",
+    "text": "This was my first MERN Stack project. I started with a blank slate and created this project from the ground up. The user can query the Google Books API, and save books to a list. User can also delete from the list.",
+    "features": [
+      "MERN Website",
+      "React Hooks",
+      "MongoDB",
+      "Express",
+      "Heroku deployment"
+    ],
+    "siteURL": " https://fast-dawn-85006.herokuapp.com/",
+    "github": "https://github.com/colinstevens06/book-search",
+    "img": "./assets/images/projects/book-search.jpg",
+    "order": "col-md-6 order-2",
+    "fade": "fade-right"
+  },
+  {
+    "id": 11,
+    "name": "ReactJS Employee Directory",
+    "text": "Without any starter code, I created a sortable, filterable employee directory using ReactJS",
+    "features": [
+      "ReactJS",
+      "ReactJS State Manipulation",
+      "Sorting and Filtering",
+      "Heroku deployment"
+    ],
+    "siteURL": "https://dry-beach-94354.herokuapp.com/",
+    "github": "https://github.com/colinstevens06/16-employee-directory",
+    "img": "./assets/images/projects/employee-directory.jpg",
+    "order": "col-md-6",
+    "fade": "fade-left"
+  },
+  {
+    "id": 10,
     "name": "ReactJS Calculator",
     "text": "This was my first React.JS project. I built the calculator dynamically and adjusted to new React syntax.",
     "features": [
@@ -11,11 +59,11 @@
     "siteURL": "https://guarded-sea-42388.herokuapp.com/",
     "github": "https://github.com/colinstevens06/calculator",
     "img": "./assets/images/projects/calculator-app.jpg",
-    "order": "col-md-6",
-    "fade": "fade-left"
+    "order": "col-md-6 order-2",
+    "fade": "fade-right"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Lies From Granny",
     "text": "This website is a marketing tool for Lies From Granny, my band. It's target audiences are fans and potential venues.",
     "features": [
@@ -26,6 +74,21 @@
     "siteURL": "https://liesfromgranny.com/",
     "github": "https://github.com/colinstevens06/Lies-From-Granny",
     "img": "./assets/images/projects/lies-from-granny-band-website.jpg",
+    "order": "col-md-6",
+    "fade": "fade-left"
+  },
+  {
+    "id": 8,
+    "name": "Fitness Tracker",
+    "text": "Provided the front-end code, I created NoSQL database using MongoDB.",
+    "features": [
+      "MongoDB (NoSQL)",
+      "RESTful routing",
+      "SaSS"
+    ],
+    "siteURL": "https://arcane-anchorage-34060.herokuapp.com/",
+    "github": "https://github.com/colinstevens06/14-Workout-Tracker",
+    "img": "./assets/images/projects/fitness-tracker.jpg",
     "order": "col-md-6 order-2",
     "fade": "fade-right"
   },
