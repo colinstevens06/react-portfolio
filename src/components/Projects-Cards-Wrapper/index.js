@@ -13,7 +13,7 @@ class ProjectsCardsWrapper extends Component {
 
       <div>
         <main className="container projects-container mt-4">
-          <h1 className="mb-4">Projects by <span>Colin Stevens</span></h1>
+          <h1 className="mb-4" style={{ textAlign: "center" }}>My Projects</h1>
           {this.state.projects.map(project => (
             <ProjectsCard
               key={project.id}

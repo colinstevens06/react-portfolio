@@ -46,81 +46,81 @@
 
 @media screen and (max-width: 678px) {
    /* ========================== MOBILE HERO IMAGE ========================== */
-   .slider {
+  .slider {
       height: 100vh;
       background: linear-gradient(to left, #ffa57b, #f8ceba);
-   }
+  }
 
-   section {
+  section {
       height: 90vh;
-   }
+  }
 
-   p {
+  p {
       font-size: 1.25rem;
-   }
+  }
 
-   .headline {
+  .headline {
       font-size: 40px;
       top: 20%;
       left: 30%;
       transform: translate(-30%, -40%);
-   }
+  }
 
-   .logo {
+  .logo {
       font-size: 1.5em;
-   }
+  }
 
-   nav {
+  nav {
       min-height: 10vh;
-   }
+  }
 
-   .body-copy {
+  .body-copy {
       padding: 2em;
-   }
+  }
 
-   .body-copy img {
+  .body-copy img {
       width: 100%;
       margin: 0;
       margin-bottom: 30px;
-   }
+  }
 
-   .body-copy h2 {
+  .body-copy h2 {
       font-size: 2.5rem;
       text-align: center;
-   }
+  }
 
-   .navbar {
+  .navbar {
       padding: 0;
-   }
+  }
 
-   .navbar-nav {
+  .navbar-nav {
       flex-direction: row;
       justify-content: center;
       margin-bottom: 10px;
-   }
+  }
 
-   .navbar-brand {
+  .navbar-brand {
       padding: 0.5rem 0.75rem;
-   }
+  }
 
-   .navbar-toggler {
+  .navbar-toggler {
       margin-right: 0.75rem;
-   }
+  }
 
-   .nav-btn {
+  .nav-btn {
       font-size: 1rem;
       padding: 6px 8px;
       width: 90px;
-   }
+  }
 
    /* ============== ABOUT MOBILE NAVIGATION ============== */
-   .about-hero {
+  .about-hero {
       padding-left: 1rem !important;
       padding-right: 1rem !important;
       margin-top: 3rem !important;
-   }
+  }
 
-   .about-hero::after {
+  .about-hero::after {
       margin-right: 30px;
       margin-top: 15px;
       border-radius: 5px;
@@ -129,28 +129,29 @@
       text-align: center;
       opacity: 0.7;
       width: 35%;
-   }
+  }
 
-   .about-section h1 {
+  .about-section h1 {
       font-size: 2rem;
       line-height: 2.5;
-   }
+  }
 
-   .about-section h2 {
+  .about-section h2 {
       font-size: 1.75rem;
       line-height: 1.75;
-   }
+  }
 
-   .about-section p {
+  .about-section p {
       font-size: 1.1rem;
-   }
-   .fa-times-circle {
+  }
+
+  .fa-times-circle {
       font-size: 50px;
       padding: 8px;
       align-items: center;
-   }
+  }
 
-   .left-col {
+  .left-col {
       margin-bottom: 2.5rem;
    }
 }

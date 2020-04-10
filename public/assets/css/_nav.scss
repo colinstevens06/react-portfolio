@@ -1,14 +1,18 @@
 nav {
-  min-height: 15vh;
+  min-height: 5vh;
   color: white;
   align-items: center;
   background: linear-gradient(to left, #fffafa, #ffffff);
   opacity: 0.8;
 }
 
+.navbar {
+  padding: 0;
+}
+
 .logo {
   grid-column: 2/3;
-  font-size: 3em;
+  font-size: 1.25em;
   color: black;
 }
 
@@ -26,8 +30,9 @@ nav {
 
 .nav-btn {
   display: inline-block;
-  width: 100px;
-  padding: 8px 12px;
+  font-size: .75rem;
+  width: 75px;
+  padding: 6px 8px;
   text-align: center;
   border-right: 1px solid black;
   transition: 0.5s;
@@ -36,9 +41,9 @@ nav {
   }
   &:hover {
     text-decoration: none;
-     transition: 0.5s;
-     cursor: pointer;
-     background-color: #d88965;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: #d88965;
   }
 }
 
