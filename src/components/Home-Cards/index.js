@@ -3,13 +3,15 @@ import React from "react"
 export default function HomeCards() {
   return (
     <div>
-      <div className="container my-5 later-fade icon-grid">
+      <div className="container mb-5 later-fade icon-grid">
         <div className="row">
           <div className="col">
             <div className="card-deck">
               <div className="card card-home text-center nav-fade" data-aos="fade-left" data-url="projects.html">
-                <i className="fas fa-laptop-code"></i>
-                <div className="card-title">Development Projects</div>
+                <a href="/projects">
+                  <i className="fas fa-laptop-code"></i>
+                  <div className="card-title">Development Projects</div>
+                </a>
               </div>
 
               <div className="card card-home text-center" data-aos="fade-right">
@@ -20,8 +22,10 @@ export default function HomeCards() {
               </div>
 
               <div className="card card-home text-center nav-fade" data-aos="fade-left" data-url="about.html">
-                <i className="fas fa-user"></i>
-                <div className="card-title">About Me</div>
+                <a href="/about">
+                  <i className="fas fa-user"></i>
+                  <div className="card-title">About Me</div>
+                </a>
               </div>
             </div>
           </div>

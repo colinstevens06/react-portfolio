@@ -2,10 +2,7 @@ $(document).ready(function () {
   const hero = $("#hero");
   const slider = $("#slider");
   const logo = $("#logo");
-  const hamburger = $(".hamburger");
   const navgroup = $(".navbar-fade");
-  const laterFade = $(".later-fade");
-  // const htmlElement = $("html");
   const elementFadeIn = $(".fade-in");
   const aboutSectionDiv = $("#about-section");
   const windowWidth = window.innerWidth;
